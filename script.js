@@ -72,13 +72,7 @@ function stopPlay(){
         }  else if (nameA.value==='scissor' && nameB.value==='rock') {
             resultB();
         }
-        // Draw
-        else {
-            playerA.innerHTML= "It's a Draw";
-            playerB.innerHTML= "It's a Draw";
-            playerA.setAttribute('class','Draw');
-            playerB.setAttribute('class','Draw');
-        }
+        
 }
 
 function playAgain(){
